@@ -1,0 +1,38 @@
+{
+  "1": {
+    "name": "Graduate work",
+    "desc": {
+      "Цели проекта ": " Создать веб-приложение, которое будет работать как облачное хранилище. Приложение позволит пользователям отображать, загружать, отправлять, скачивать и переименовывать файлы"
+    },
+    "content": {
+      "https://github.com/AntonGusev111/port_imgs/blob/master/gr_work/1_localhost.png?raw=true": "Фронтенд реализован на на языках JavaScript, HTML, CSS с использованием библиотек React, Zustand, React Router.",
+      "https://github.com/AntonGusev111/port_imgs/blob/master/gr_work/3_localhost.png?raw=true": "Формы имеют функциональный дизайн.В формах присутствуют выпадающие подсказки.",
+      "https://github.com/AntonGusev111/port_imgs/blob/master/gr_work/4_localhost.png?raw=true": "Пользовательский интерфейс интуитивно понятен, обладает всеми необходимыми функциями, всплывающими подсказками. Файлы можно загружать при помощи Drag and Drop и добавлять комментарии на стадии загрузки. У загруженных файлом можно редактировать названия, комментарии. Файлы можно удалять, скачивать, передавать ссылки для скачивания Ссылки обезличены и не содержат названия или пути к файлу",
+      "https://github.com/AntonGusev111/port_imgs/blob/master/gr_work/5_localhost.png?raw=true": "Интерфейс администратора аналогичен пользовательскому интерфейсу.Интерфейс отображает список пользователей с выводом признака «администратор» и информации, указанной пользователем в форме регистрации (кроме пароля). В списке присутствует возможность удаления пользователей и изменения значения признака «администратор».В списке пользователей также отображается информация о файловых хранилищах пользователей: количество и размер файлов, ссылка для перехода к интерфейсу управления этими файлами."
+    }
+  },
+  "2": {
+    "name": "Arch moto",
+    "desc": { "Цели проекта ": " Создать клон сайта Arch Motorcucle" },
+    "content": {
+      "https://github.com/AntonGusev111/port_imgs/blob/master/arch/1.png?raw=true": "Приложение имеет аналогичный оригиналу внешний вид",
+      "https://github.com/AntonGusev111/port_imgs/blob/master/arch/4.png?raw=true": "Формы обратной связи полностью функциональны, отправляют данные на back end, все данные сохраняются в БД",
+      "https://github.com/AntonGusev111/port_imgs/blob/master/arch/3.png?raw=true": "Приложение имеет меню со всеми разделами сайта",
+      "https://github.com/AntonGusev111/port_imgs/blob/master/arch/8.png?raw=true": "Раздел приложения 'Новости'",
+      "https://github.com/AntonGusev111/port_imgs/blob/master/arch/9.png?raw=true": "Новостные статьи получают отображают все полученные данные. Форматирование данных происходит согласно инструкции, полученой с бэкэнда",
+      "https://github.com/AntonGusev111/port_imgs/blob/master/arch/7.png?raw=true": "Приложение обладает слайдером фото и текста"
+    }
+  },
+  "3": {
+    "name": "Shoe store",
+    "desc": {
+      "Цели проекта ": " Создать веб-приложение - онлайн магазин обуви"
+    },
+    "content": {
+      "https://github.com/AntonGusev111/port_imgs/blob/master/sh_shop/1.png?raw=true": "Приложение имеет главное меню",
+      "https://github.com/AntonGusev111/port_imgs/blob/master/sh_shop/5.png?raw=true": "Приложение содержит раздел 'Контакты', в котором присутствует карта",
+      "https://github.com/AntonGusev111/port_imgs/blob/master/sh_shop/3.png?raw=true": "Приложение имеет каталог товаров, реализован поиск и разделы",
+      "https://github.com/AntonGusev111/port_imgs/blob/master/sh_shop/4.png?raw=true": "Карточка товара"
+    }
+  }
+}
