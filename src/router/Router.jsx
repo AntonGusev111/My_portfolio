@@ -12,11 +12,11 @@ export default function Router() {
     <div>
       <Routes>
       <Route path="*" element={<NotFoundPage />} />
-      <Route path="/" element={<MainPage />} />
-      <Route path="/About" element={<About />} />
-      <Route path="/Contact" element={<Contact />} />
-      <Route path="/Work" element={<Work />} />
-      <Route path="/Work/:id" element={<WorkPage />} />
+      <Route path="/My_portfolio/" element={<MainPage />} />
+      <Route path="/My_portfolio/About" element={<About />} />
+      <Route path="/My_portfolio/Contact" element={<Contact />} />
+      <Route path="/My_portfolio/Work" element={<Work />} />
+      <Route path="/My_portfolio/Work/:id" element={<WorkPage />} />
       </Routes>
     </div>
   )
