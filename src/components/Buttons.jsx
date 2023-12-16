@@ -15,7 +15,6 @@ export default function Buttons({
   const navigate = useNavigate();
   const wraperClass = useRef();
   const buttonClick = () => {
-    console.log(url)
     navigate(url)
     if(work){
       navigate(`/Work/${url}`)

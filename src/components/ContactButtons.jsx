@@ -12,7 +12,6 @@ export default function ContactButtons({
   const headerChangeDiv = useRef("");
   const copyUrl = () => {
     if (redirect) {
-        console.log('awd')
         window.location.href = url
     } else {
       navigator.clipboard.writeText(header);
