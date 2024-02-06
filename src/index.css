@@ -17,6 +17,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'jb';
+  src: url('/src/assets/fonts/jb/JetBrainsMono-Regular.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
 body {
   width: 99%;
   background-color: #000000;
@@ -50,7 +57,9 @@ body {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: black;
+  background-color: rgb(8, 0, 0);
+  display: flex;
+  z-index: -999;
 }
 
 .WorkMainWraper {
@@ -60,6 +69,7 @@ body {
 .WorkContent {
   padding-left: 5%;
   width: 90%;
+
 }
 
 .ContactMainWraper {
@@ -128,7 +138,10 @@ body {
   margin-top: 45px;
   display: flex;
   flex-direction: row;
+  z-index: 999;
+  background-color: #00000000;
 }
+
 
 
 .legend {
@@ -138,7 +151,12 @@ body {
 }
 
 .sliderImg {
-  width: 100%;
+  width: 69%;
+}
+
+a {
+  text-decoration:none;
+  color: red;
 }
 
 .MysliderWraper {
@@ -202,9 +220,10 @@ body {
   text-align: left;
   overflow: hidden;
   vertical-align: top;
-  z-index: 0;
+  z-index: 999;
   transition-duration: 0.5s;
   max-height: auto;
+  min-width: 90%;
 }
 
 .Buttons_wraper:hover {
@@ -259,6 +278,34 @@ body {
   font-size: 150px;
 }
 
+.WorkPageHeader {}
+
+.BouncyWrapper {
+  font-size: 35px;
+  margin-left: 2%;
+  display: flex;
+}
+
+.Bouncy {
+  margin: auto;
+  color: red;
+}
+
+.AnimatedProjectBotton {
+  margin-top: 22px
+}
+
+.ProjectPajeHeaderWraper {
+  display: flex;
+}
+
+.AnimatedProjectBotton:hover {
+  cursor: pointer;
+  color: #e9e9e9;
+  -webkit-transition:
+    color 2s
+}
+
 .WorkPageMainWraper {
   position: absolute;
   left: 25px;
@@ -270,16 +317,30 @@ body {
   background-color: rgba(127, 255, 212, 0);
   min-height: 40vh;
   padding-left: 15%;
+  min-width: 35%;
+  background-color: #e9e9e900;
+  z-index: 999;
+}
+
+
+
+@media screen and (max-width: 1198px) {
+  .MainPageAnimation{
+    display: none;
+    z-index: -999;
+  }
 }
 
 .Button_Comment {
   margin-top: -75px;
   color: red;
   font-size: 18px !important;
+  z-index: 999;
 }
 
 .Button_Header {
   font-family: 'GraphikBolt';
+  z-index: 99;
 }
 
 .Font102 {
@@ -312,7 +373,7 @@ body {
   text-decoration-color: red !important;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1130px) {
   .Button_Header {
     font-size: 65px !important;
     margin-bottom: 75px;
@@ -324,12 +385,123 @@ body {
 
   .Buttons_wraper {
     margin-bottom: 55px;
+    z-index: 999;
   }
 
   .ContactButtonsHeader {
     font-size: 25px;
   }
 }
+
+.MainPageAnimation{
+  margin-top: 8%;
+  background-color: rgba(43, 43, 43, 0);
+  z-index: -9;
+  min-width: 700px;
+  margin-right: 100px;
+  margin-left: -100px;
+  max-height: 90%;
+}
+
+.IdeSimulation{
+  min-width: 700px;
+  max-height: 90%;
+}
+
+.IdeHeader{
+  color: rgb(151, 186, 159);
+  width: 100%;
+  background-color: rgb(60, 63, 65);
+  height: 32px;
+}
+
+.IdeBookmark{
+  background-color: rgb(78, 82, 84);
+  height: 25px;
+  font-size: 15px;
+  padding-left: 2px;
+  padding-bottom: 2px;
+  width: 130px;
+}
+.IdeBookmarkFooter{
+  height: 5px;
+  width: 130px;
+  background-color: rgb(116, 122, 128);
+}
+
+.ideBody{
+  display: flex;
+  margin-top: 0px;
+  height: 100%;
+  min-width: 100%;
+  background-color:rgb(36, 35, 35);
+}
+
+.white{
+  color: rgb(162, 176, 182);
+}
+
+.yellow{
+  color: rgb(203, 107, 46);
+}
+
+.grey {
+  color: rgb(106, 110, 117)
+}
+
+.blue{
+  color: rgb(136, 136, 198)
+}
+
+.green{
+  color:rgb(105, 119, 66)
+}
+
+.Red{
+  color: rgb(166, 71, 36)
+}
+
+.Lines{
+  padding-left: 15px;
+  padding-right: 25px;
+  border-right: 1px solid rgb(85, 85, 85);
+  font-size: 15px;
+  color: rgb(83, 81, 83);
+  max-width: 45px;
+  background-color: rgb(41, 51, 53);
+  padding-top: -15px;
+  height: 600px;
+  z-index: 1;
+}
+
+.IdeWorkSpace{
+  width: 90%;
+  padding-left: 15px;
+  font-family:'jb';
+  font-size: 14px;
+}
+
+.IdeFooter{
+  margin-top: -13px;
+  height: 19px;
+  background-color: rgb(49, 51, 53);
+  color: rgb(187, 187, 187);
+  padding-left: 8%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  z-index: 999;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+.ti-cursor{
+  color: white !important;
+}
+
 
 .AnimatedPullWraper {
   margin-top: 25px;
@@ -348,6 +520,7 @@ body {
   from {
     margin-left: 0px;
   }
+
   to {
     margin-left: -50px;
   }
@@ -371,6 +544,8 @@ body {
   border-radius: 3px;
   background: #FFF;
 }
+
+
 
 .block:nth-child(4n+1) {
   animation: wave 2s ease .0s infinite;

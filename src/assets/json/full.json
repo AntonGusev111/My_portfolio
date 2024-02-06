@@ -4,6 +4,8 @@
     "desc": {
       "Цели проекта ": " Создать веб-приложение, которое будет работать как облачное хранилище. Приложение позволит пользователям отображать, загружать, отправлять, скачивать и переименовывать файлы"
     },
+    "url": "http://89.111.154.70:3000",
+    "repo":"https://github.com/GusevADresume/graduate_work",
     "content": {
       "https://github.com/AntonGusev111/port_imgs/blob/master/gr_work/1_localhost.png?raw=true": "Фронтенд реализован на на языках JavaScript, HTML, CSS с использованием библиотек React, Zustand, React Router.",
       "https://github.com/AntonGusev111/port_imgs/blob/master/gr_work/3_localhost.png?raw=true": "Формы имеют функциональный дизайн.В формах присутствуют выпадающие подсказки.",
@@ -14,6 +16,8 @@
   "2": {
     "name": "Arch moto",
     "desc": { "Цели проекта ": " Создать клон сайта Arch Motorcucle" },
+    "url": "http://89.111.154.70:81",
+    "repo":"https://github.com/GusevADresume/archMotoFront",
     "content": {
       "https://github.com/AntonGusev111/port_imgs/blob/master/arch/1.png?raw=true": "Приложение имеет аналогичный оригиналу внешний вид",
       "https://github.com/AntonGusev111/port_imgs/blob/master/arch/4.png?raw=true": "Формы обратной связи полностью функциональны, отправляют данные на back end, все данные сохраняются в БД",
@@ -28,11 +32,26 @@
     "desc": {
       "Цели проекта ": " Создать веб-приложение - онлайн магазин обуви"
     },
+    "url": "http://89.111.154.70",
+    "repo":"https://github.com/GusevADresume/react_course_work",
     "content": {
       "https://github.com/AntonGusev111/port_imgs/blob/master/sh_shop/1.png?raw=true": "Приложение имеет главное меню",
       "https://github.com/AntonGusev111/port_imgs/blob/master/sh_shop/5.png?raw=true": "Приложение содержит раздел 'Контакты', в котором присутствует карта",
       "https://github.com/AntonGusev111/port_imgs/blob/master/sh_shop/3.png?raw=true": "Приложение имеет каталог товаров, реализован поиск и разделы",
       "https://github.com/AntonGusev111/port_imgs/blob/master/sh_shop/4.png?raw=true": "Карточка товара"
+    }
+  },
+  "4":{
+    "name":" Bar menu",
+    "desc":{
+      "Цели проекта ": " Создать веб-приложение - 'Барное меню' для использования в мобильных браузерах"
+    },
+    "url": "https://antongusev111.github.io/barMenu/",
+    "repo":"https://github.com/AntonGusev111/barMenu",
+    "content":{
+      "https://github.com/AntonGusev111/port_imgs/blob/master/bm/2.jpg?raw=true": "Приложение имеет набор 'карточек' коктелей",
+      "https://github.com/AntonGusev111/port_imgs/blob/master/bm/3.jpg?raw=true": "При выборе карточки в случае медленной загрузки показывается лоадер",
+      "https://github.com/AntonGusev111/port_imgs/blob/master/bm/4.jpg?raw=true" : "Меню разбито на категории в виде выпадающих списков"
     }
   }
 }
