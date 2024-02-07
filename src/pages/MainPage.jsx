@@ -12,21 +12,21 @@ export default function MainPage() {
           fColor={"ColorWhite"}
           headerChange={"About"}
           fSize={"Font102"}
-          url={"/About"}
+          url={"/My_portfolio/About"}
         />
         <Buttons
           header={"I am"}
           fColor={"ColorRed"}
           headerChange={"Work"}
           fSize={"Font102"}
-          url={"/Work"}
+          url={"/My_portfolio/Work"}
         />
         <Buttons
           header={"Anton"}
           fColor={"ColorRed"}
           headerChange={"Contact"}
           fSize={"Font102"}
-          url={"/Contact"}
+          url={"/My_portfolio/Contact"}
         />
       </div>
       <div className="MainPageAnimation">

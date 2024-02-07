@@ -4,11 +4,13 @@ import Buttons from "../components/Buttons";
 import data from "../assets/json/small.json";
 
 export default function Work() {
+
   return (
     <div className="WorkMainWraper">
       <BackBotton />
       <div className="WorkContent">
         {Object.keys(data).map((element, index) => {
+          console.log(data[element])
           return (
             <div key={element} className="WorkItem">
               <Buttons

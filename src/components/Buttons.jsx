@@ -17,7 +17,7 @@ export default function Buttons({
   const buttonClick = () => {
     navigate(url)
     if(work){
-      navigate(`/Work/${url}`)
+      navigate(`/My_portfolio/Work/${url}`)
     }
   };
   const mouseEnter = () => {
