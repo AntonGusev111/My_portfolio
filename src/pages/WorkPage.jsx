@@ -8,9 +8,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styled, { keyframes } from "styled-components";
-import {
-  wobble,
-} from "react-animations";
+import {wobble} from "react-animations";
+import gh from "../assets/gth12.jpeg"
+
+
 
 export default function WorkPage() {
   const [load1, setLoader] = useState(false);
@@ -53,6 +54,9 @@ export default function WorkPage() {
             </div>
           </BouncyDiv>
         </div>
+        <div className="githubIcon">
+           <a href={info.repo} target="_blank"><img className="githubIcon" src={gh}></img></a> 
+          </div>
       </div>
 
       <div className="WorkPageDescription Font27 ColorWhite">
