@@ -126,14 +126,14 @@ export default function MainPage() {
               </span>
               <br></br>
               <span className="yellow">
-                import <span className="white"> pathlib </span>
+                from <span className="white"> pathlib </span>
                 <span className="yellow">
                   import <span className="white"> Path </span>
                 </span>
               </span>
               <br></br>
               <span className="yellow">
-                import <span className="white"> memory_profiler </span>
+                from <span className="white"> memory_profiler </span>
                 <span className="yellow">
                   import <span className="white"> profile </span>
                 </span>
