@@ -26,7 +26,8 @@
 
 body {
   width: 99%;
-  background-color: #000000;
+  background-image: url('/src/assets/backgroud/backgroud.jpg');
+  background-size: cover;
 }
 
 .ContactButtonsHeaderChange {
@@ -43,12 +44,16 @@ body {
 }
 
 .AboutMainWraper {
+  position: absolute;
   display: flex;
   flex-direction: column;
-  background-color: rgb(0, 0, 0);
-  z-index: -999;
+  background-color: rgba(0, 0, 0, 0);
   width: 100%;
   height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 .MainPageWraper {
@@ -57,18 +62,23 @@ body {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgb(8, 0, 0);
+  background-color: rgba(8, 0, 0, 0);
   display: flex;
-  z-index: -999;
+  z-index: 0;
 }
 
 .WorkMainWraper {
   width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 .WorkContent {
   padding-left: 5%;
-  width: 90%;
+  width: 80%;
 
 }
 
@@ -77,13 +87,110 @@ body {
   left: 0;
   right: 0;
   top: 0;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0);
 }
 
-.githubIcon{
+.githubIcon {
   width: 75px;
   height: 75px;
   margin-left: 10%;
+}
+
+.Paralacx {
+  display: inline-block;
+  width: 100%;
+  margin-left: 0.5vw;
+  height: 95vh;
+}
+
+.constellations{
+  height: 48%;
+}
+
+.UrsaMinor{
+  margin-left: 60vw;
+}
+
+.UrsaMinor1{
+  margin-bottom: 7vh;
+
+}
+
+.UrsaMinor2{
+  margin-left: -5vh;
+
+}
+
+.UrsaMinor3{
+  margin-left: 4vh;
+}
+
+.UrsaMinor4{
+  margin-bottom: 9vh;
+  margin-left: -6vh;
+}
+
+.UrsaMinor5{
+  margin-bottom: 13vh;
+}
+
+.UrsaMinor6{
+  margin-bottom: 17vh;
+}
+
+.UrsaMinor7{
+  margin-bottom: 17vh;
+}
+
+.BigDipper {
+   margin-left: 10vw;
+  margin-top: 15vh;
+}
+
+.BigDipper1 {
+  margin-bottom: 150px;
+}
+
+.BigDipper2 {
+  margin-bottom: 180px;
+  margin-left: 35px;
+}
+
+.BigDipper3 {
+  margin-bottom: 145px;
+  margin-left: 15px;
+}
+
+.BigDipper4 {
+  margin-bottom: 125px;
+  margin-left: 35px;
+}
+
+.BigDipper5 {
+  margin-left: -45px;
+}
+
+.BigDipper6 {
+  margin-left: 65px;
+  margin-bottom: 35px;
+}
+
+.BigDipper7 {
+  margin-bottom: 145px;
+  margin-left: -65px;
+}
+
+.BigStar {
+  width: 80px;
+}
+
+.MediumStar {
+  width: 70px;
+}
+
+.smallStar {
+  width: 55px;
+  height: 35px;
 }
 
 .ContactHeaderWraper {
@@ -161,7 +268,7 @@ body {
 }
 
 a {
-  text-decoration:none;
+  text-decoration: none;
   color: red;
 }
 
@@ -331,7 +438,7 @@ a {
 
 
 @media screen and (max-width: 1198px) {
-  .MainPageAnimation{
+  .MainPageAnimation {
     display: none;
     z-index: -999;
   }
@@ -399,7 +506,7 @@ a {
   }
 }
 
-.MainPageAnimation{
+.MainPageAnimation {
   margin-top: 8%;
   background-color: rgba(43, 43, 43, 0);
   z-index: -9;
@@ -409,19 +516,19 @@ a {
   max-height: 90%;
 }
 
-.IdeSimulation{
+.IdeSimulation {
   min-width: 700px;
   max-height: 90%;
 }
 
-.IdeHeader{
+.IdeHeader {
   color: rgb(151, 186, 159);
   width: 100%;
   background-color: rgb(60, 63, 65);
   height: 32px;
 }
 
-.IdeBookmark{
+.IdeBookmark {
   background-color: rgb(78, 82, 84);
   height: 25px;
   font-size: 15px;
@@ -429,25 +536,26 @@ a {
   padding-bottom: 2px;
   width: 130px;
 }
-.IdeBookmarkFooter{
+
+.IdeBookmarkFooter {
   height: 5px;
   width: 130px;
   background-color: rgb(116, 122, 128);
 }
 
-.ideBody{
+.ideBody {
   display: flex;
   margin-top: 0px;
   height: 100%;
   min-width: 100%;
-  background-color:rgb(36, 35, 35);
+  background-color: rgb(36, 35, 35);
 }
 
-.white{
+.white {
   color: rgb(162, 176, 182);
 }
 
-.yellow{
+.yellow {
   color: rgb(203, 107, 46);
 }
 
@@ -455,19 +563,19 @@ a {
   color: rgb(106, 110, 117)
 }
 
-.blue{
+.blue {
   color: rgb(136, 136, 198)
 }
 
-.green{
-  color:rgb(105, 119, 66)
+.green {
+  color: rgb(105, 119, 66)
 }
 
-.Red{
+.Red {
   color: rgb(166, 71, 36)
 }
 
-.Lines{
+.Lines {
   padding-left: 15px;
   padding-right: 25px;
   border-right: 1px solid rgb(85, 85, 85);
@@ -480,14 +588,14 @@ a {
   z-index: 1;
 }
 
-.IdeWorkSpace{
+.IdeWorkSpace {
   width: 90%;
   padding-left: 15px;
-  font-family:'jb';
+  font-family: 'jb';
   font-size: 14px;
 }
 
-.IdeFooter{
+.IdeFooter {
   margin-top: -13px;
   height: 19px;
   background-color: rgb(49, 51, 53);
@@ -497,6 +605,7 @@ a {
   padding-bottom: 5px;
   z-index: 999;
 }
+
 .wrapper {
   display: flex;
   justify-content: center;
@@ -504,7 +613,7 @@ a {
 }
 
 
-.ti-cursor{
+.ti-cursor {
   color: white !important;
 }
 

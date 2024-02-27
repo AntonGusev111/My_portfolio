@@ -1,14 +1,17 @@
 import React from "react";
 import BackBotton from "../components/BackBotton";
 import ContactButtons from "../components/ContactButtons";
+import ParalaxBackGroud from "../components/ParalaxBackGroud";
 
 
 export default function Contact() {
   return (
+    <>
+    <ParalaxBackGroud />
     <div className="ContactMainWraper">
       <BackBotton />
       <div className="ContactHeaderWraper">
-        <div className="ContactHeader">Давайте сделаем что то большое</div>
+        <div className="ContactHeader">Давайте сделаем что-то большое</div>
       </div>
       <div className="ContactArticle">
         <div className="ContactArticleHeader">Контакты</div>
@@ -22,5 +25,6 @@ export default function Contact() {
         </div>
       </div>
     </div>
+    </>
   );
 }

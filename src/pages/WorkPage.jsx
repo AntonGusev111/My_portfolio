@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styled, { keyframes } from "styled-components";
 import {wobble} from "react-animations";
-import gh from "../assets/gth12.jpeg"
+import gh from "../assets/gth12.png"
 
 
 
