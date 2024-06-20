@@ -20,7 +20,7 @@ export default function Contact() {
         <div className="ContactButtonsBlock">
           <ContactButtons header={'GusevAD111@gmail.com'} headerChange={'Copy to clipboard'}/>  
           <ContactButtons redirect={true} header={'HH.ru'} url={'https://hh.ru/resume/79bcaa59ff09ced3e50039ed1f363646474d74'}/>
-          <ContactButtons redirect={true} header={'Resume'} url={'https://disk.yandex.ru/i/WDRppnWaSLaDfA'}/>
+          <ContactButtons redirect={true} header={'Resume'} url={'https://disk.yandex.ru/i/dMFGC2IzUCxKsw'}/>
           <ContactButtons redirect={true} header={'GitHub'} url={'https://github.com/GusevADresume'}/>    
         </div>
       </div>

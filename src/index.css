@@ -35,7 +35,7 @@ body {
 }
 
 #root {
-  width: 99%;
+  width: 98vw;
 }
 
 .mainDiv {
@@ -58,6 +58,7 @@ body {
 
 .MainPageWraper {
   position: absolute;
+  width: 98vw;
   left: 0;
   right: 0;
   top: 0;
@@ -98,51 +99,56 @@ body {
 
 .Paralacx {
   display: inline-block;
-  width: 100%;
+  width: 95vw;
+
   margin-left: 0.5vw;
   height: 95vh;
 }
 
 .constellations{
-  height: 48%;
+  height: 45%;
 }
 
+
 .UrsaMinor{
+  min-width: 500px;
+  max-height: 500px;
   margin-left: 60vw;
 }
 
 .UrsaMinor1{
-  margin-bottom: 7vh;
+  margin-bottom: 70px;
 
 }
 
 .UrsaMinor2{
-  margin-left: -5vh;
+  margin-left: -50px;
 
 }
 
 .UrsaMinor3{
-  margin-left: 4vh;
+  margin-left: 40px;
 }
 
 .UrsaMinor4{
-  margin-bottom: 9vh;
-  margin-left: -6vh;
+  margin-bottom: 98px;
+  margin-left: -65px;
 }
 
 .UrsaMinor5{
-  margin-bottom: 13vh;
+  margin-bottom: 130px;
 }
 
 .UrsaMinor6{
-  margin-bottom: 17vh;
+  margin-bottom: 170px;
 }
 
 .UrsaMinor7{
-  margin-bottom: 17vh;
+  margin-bottom: 170px;
 }
 
 .BigDipper {
+  min-width: 500px;
    margin-left: 10vw;
   margin-top: 15vh;
 }
@@ -248,6 +254,7 @@ body {
 }
 
 .contentWraper {
+  width: 98vw;
   margin-top: 45px;
   display: flex;
   flex-direction: row;
@@ -336,7 +343,7 @@ a {
   z-index: 999;
   transition-duration: 0.5s;
   max-height: auto;
-  min-width: 90%;
+  min-width: 80%;
 }
 
 .Buttons_wraper:hover {
@@ -452,6 +459,7 @@ a {
 }
 
 .Button_Header {
+  min-width: 80vw;
   font-family: 'GraphikBolt';
   z-index: 99;
 }
@@ -497,6 +505,7 @@ a {
   }
 
   .Buttons_wraper {
+    min-width: 50%;
     margin-bottom: 55px;
     z-index: 999;
   }
