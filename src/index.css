@@ -294,6 +294,50 @@ a {
   font-family: 'Graphik'
 }
 
+@media screen and (max-width: 990px) {
+  .article {
+    margin-top: 2000px !important;
+    width: 55%;
+    color: white;
+    text-align: left;
+    font-family: 'Graphik'
+  }
+  .resumeUrlWraper {
+    margin-top: 10px !important;
+    min-height: 5vh;
+    text-align: left;
+  }
+  .githubIcon{
+    margin-top: 65px;
+    margin-left: -12vw;
+  }
+  .BouncyWrapper{
+    margin-top: 220px;
+    position: absolute;
+  }
+  .WorkPageDescription{
+    margin-top: 95px;
+  }
+
+  .WorkPageHeader {
+    margin-left: -10px !important;
+  }
+
+  .WorkContent {
+    width: 99vw !important;
+  }
+
+  .Buttons_wraper {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+  .test{
+    margin-top: 0px !important;
+  }
+  
+}
+
+
 .paragraph {
   font-size: 18px;
   margin-top: 15px;
