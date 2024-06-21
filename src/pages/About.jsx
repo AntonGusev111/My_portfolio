@@ -40,7 +40,7 @@ export default function About() {
               })}
               <div className="resumeUrlWraper">
                 <Link
-                  to="https://disk.yandex.ru/i/3S5RQCqXuzrKhA"
+                  to="https://disk.yandex.ru/i/dMFGC2IzUCxKsw"
                   className="resumeUrl"
                 >
                   MyResume
