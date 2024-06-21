@@ -105,51 +105,51 @@ body {
   height: 95vh;
 }
 
-.constellations{
+.constellations {
   height: 45%;
 }
 
 
-.UrsaMinor{
+.UrsaMinor {
   min-width: 500px;
   max-height: 500px;
   margin-left: 60vw;
 }
 
-.UrsaMinor1{
+.UrsaMinor1 {
   margin-bottom: 70px;
 
 }
 
-.UrsaMinor2{
+.UrsaMinor2 {
   margin-left: -50px;
 
 }
 
-.UrsaMinor3{
+.UrsaMinor3 {
   margin-left: 40px;
 }
 
-.UrsaMinor4{
+.UrsaMinor4 {
   margin-bottom: 98px;
   margin-left: -65px;
 }
 
-.UrsaMinor5{
+.UrsaMinor5 {
   margin-bottom: 130px;
 }
 
-.UrsaMinor6{
+.UrsaMinor6 {
   margin-bottom: 170px;
 }
 
-.UrsaMinor7{
+.UrsaMinor7 {
   margin-bottom: 170px;
 }
 
 .BigDipper {
   min-width: 500px;
-   margin-left: 10vw;
+  margin-left: 10vw;
   margin-top: 15vh;
 }
 
@@ -212,6 +212,7 @@ body {
 }
 
 .BackBotton {
+  z-index: 9999;
   font-size: 30px;
   text-align: right !important;
 }
@@ -287,6 +288,7 @@ a {
 
 
 .article {
+  margin-top: 150px;
   margin: auto;
   width: 55%;
   color: white;
@@ -294,28 +296,38 @@ a {
   font-family: 'Graphik'
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 420px) {
+  .article{
+    margin-top: 950px !important;
+  }
+}
+
+@media screen and (max-width: 888px) {
   .article {
-    margin-top: 2000px !important;
+    margin-top: 590px;
     width: 55%;
     color: white;
     text-align: left;
     font-family: 'Graphik'
   }
+
   .resumeUrlWraper {
     margin-top: 10px !important;
     min-height: 5vh;
     text-align: left;
   }
-  .githubIcon{
+
+  .githubIcon {
     margin-top: 65px;
     margin-left: -12vw;
   }
-  .BouncyWrapper{
+
+  .BouncyWrapper {
     margin-top: 220px;
     position: absolute;
   }
-  .WorkPageDescription{
+
+  .WorkPageDescription {
     margin-top: 95px;
   }
 
@@ -331,13 +343,15 @@ a {
     margin-top: 0px !important;
     margin-bottom: 0px !important;
   }
-  .test{
+
+  .test {
     margin-top: 0px !important;
   }
-  .AboutHeader{
-    margin-top: 25vh !important;
+
+  .AboutHeader {
+    margin-top: 1vh !important;
   }
-  
+
 }
 
 

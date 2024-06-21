@@ -24,7 +24,7 @@ export default function About() {
             <div className="AboutHeader"></div>
           </div>
           <div className="articleWraper">
-          <Parallax className="test" speed={150} translateY={[-50, 40]}>
+          <Parallax className="test" speed={150} translateY={[-30, 40]}>
             <div className="article">
               <div className="articleHeader">Обо мне</div>
               <div className="mainParagraph">
